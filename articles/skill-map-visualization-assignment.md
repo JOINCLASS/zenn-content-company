@@ -3,7 +3,8 @@ title: "従業員スキルマップを可視化して、プロジェクトアサ
 emoji: "🗺️"
 type: "idea"
 topics: ["スキル管理", "HRTech", "人事DX", "プロジェクト管理", "エンジニア組織"]
-published: false
+published: true
+published_at: 2026-02-26 09:00
 ---
 
 ## はじめに: 「この人、空いてるから」でアサインしていませんか?
