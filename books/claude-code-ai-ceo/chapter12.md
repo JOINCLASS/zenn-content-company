@@ -364,3 +364,11 @@ https://joinclass.co.jp/ai-consulting
 診断はオンライン（Google Meet）で実施します。所要時間は30分。事前の準備は不要です。現状の業務フローについてお話しいただくだけで、AIの活用可能性をその場で提案します。
 
 「AIで何ができるか分からない」という段階でも構いません。まずはお気軽にご相談ください。
+
+### 本シリーズの関連書籍
+
+| 書籍 | 内容 | おすすめの方 |
+|------|------|------------|
+| [Next.js + Supabase SaaS開発入門](https://zenn.dev/joinclass/books/nextjs-supabase-saas) | 認証・決済・マルチテナントを備えたSaaSの構築方法 | SaaSプロダクトを開発したいエンジニア |
+| [AIコーディングアシスタント完全活用ガイド](https://zenn.dev/joinclass/books/ai-coding-assistant-guide) | Claude Code / Cursor / Copilotの使い分けと実務活用 | 開発生産性を上げたいエンジニア |
+| [中小企業AI業務自動化 実践ガイド](https://zenn.dev/joinclass/books/sme-ai-automation-guide) | 中小企業向けAI業務自動化の導入ロードマップ | 社内のAI導入を推進する方 |
