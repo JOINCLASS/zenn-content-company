@@ -1,0 +1,19 @@
+title: "Claude Codeで会社を動かす -- AIエージェント経営の実践記録"
+summary: "CEO1名+AIエージェント群で6プロダクトと受託開発を運営する著者が、Claude Codeを使ったAIエージェント経営の全ノウハウを公開。CLAUDE.mdによるOrchestrator設計、6部門のエージェント定義、CI/CD自動化、マーケ・経理の自動化まで、実運用の記録をもとに解説。"
+topics: ["claudecode", "ai", "経営", "自動化", "プログラミング"]
+published: true
+price: 1980
+toc_depth: 0
+chapters:
+  - chapter01
+  - chapter02
+  - chapter03
+  - chapter04
+  - chapter05
+  - chapter06
+  - chapter07
+  - chapter08
+  - chapter09
+  - chapter10
+  - chapter11
+  - chapter12
