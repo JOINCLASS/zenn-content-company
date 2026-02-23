@@ -3,7 +3,8 @@ title: "個人事業主・フリーランスの営業事務を80%削減する方
 emoji: "⚡"
 type: "idea"
 topics: ["フリーランス", "営業効率化", "AI", "自動化", "個人事業主"]
-published: false
+published: true
+published_at: 2026-03-04 09:00
 ---
 
 ## はじめに: フリーランスの「営業あるある」、心当たりありませんか？
