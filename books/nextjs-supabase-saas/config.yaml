@@ -1,0 +1,19 @@
+title: "Next.js + Supabase で作る SaaS開発入門"
+summary: "Next.js 14とSupabaseを使って、認証・データベース・決済・リアルタイム機能を備えたSaaSアプリを一から構築する実践ガイド。マルチテナント設計、Stripe連携、RLS、Vercelデプロイまで、本番運用レベルのノウハウを全12章で解説。"
+topics: ["nextjs", "supabase", "saas", "typescript", "プログラミング"]
+published: true
+price: 1500
+toc_depth: 0
+chapters:
+  - chapter01
+  - chapter02
+  - chapter03
+  - chapter04
+  - chapter05
+  - chapter06
+  - chapter07
+  - chapter08
+  - chapter09
+  - chapter10
+  - chapter11
+  - chapter12
