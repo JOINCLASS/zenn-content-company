@@ -4,7 +4,6 @@ emoji: "🔄"
 type: "idea"
 topics: ["営業効率化", "SaaS", "自動化", "AI", "CRM"]
 published: false
-published_at: 2026-03-05 09:00
 ---
 
 ## はじめに: 日程調整だけで満足していませんか？
