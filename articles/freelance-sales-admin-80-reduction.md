@@ -128,3 +128,4 @@ published_at: 2026-03-04 09:00
 **Focalize公式サイト: [https://focalize.jp](https://focalize.jp)**
 
 転記作業から解放された時間で、あなたの本業の価値をもっとクライアントに届けましょう。
+

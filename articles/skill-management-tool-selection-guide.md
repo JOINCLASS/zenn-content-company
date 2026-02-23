@@ -175,3 +175,4 @@ IT企業のスキル体系は会社ごとに異なります。「フロントエ
 
 - [エクセルでのスキル管理がなぜ破綻するのか？50名超の会社が陥る3つの罠](https://zenn.dev/joinclass/articles/excel-skill-management-failure)
 - [従業員スキルマップを可視化して、プロジェクトアサインを最適化する方法](https://zenn.dev/joinclass/articles/skill-map-visualization-assignment)
+

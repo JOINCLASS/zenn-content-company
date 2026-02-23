@@ -210,3 +210,4 @@ published_at: 2026-03-10 09:00
 → [無料AI業務診断に申し込む](https://joinclass.co.jp/ai-consulting)
 
 教育・物流・飲食業界での支援実績があります。まずはお気軽にご相談ください。
+
