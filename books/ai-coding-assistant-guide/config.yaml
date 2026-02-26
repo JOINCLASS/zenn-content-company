@@ -1,7 +1,7 @@
 title: "AIコーディングアシスタント完全活用ガイド"
 summary: "Claude Code、Cursor、GitHub Copilotの3大AIコーディングツールを横断比較し、実務で最大限に活用するための実践ガイド。CLAUDE.md設計、サブエージェント活用、チーム導入まで網羅。"
 topics: ["ai", "プログラミング", "vscode", "github", "開発効率化"]
-published: true
+published: false
 price: 1500
 toc_depth: 0
 chapters:
