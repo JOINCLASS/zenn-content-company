@@ -4,7 +4,6 @@ emoji: "📩"
 type: "idea"
 topics: ["営業効率化", "SaaS", "AI", "自動化", "CRM"]
 published: false
-published_at: 2026-03-03 09:00
 ---
 
 ## はじめに：営業事務に追われていませんか？

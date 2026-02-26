@@ -4,7 +4,6 @@ emoji: "📊"
 type: "idea"
 topics: ["スキル管理", "HRTech", "人事DX", "DX", "組織"]
 published: false
-published_at: 2026-02-25 09:00
 ---
 
 ## はじめに: あなたの会社のスキルマップ、最後に更新したのはいつですか?

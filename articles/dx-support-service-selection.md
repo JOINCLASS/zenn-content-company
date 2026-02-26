@@ -4,7 +4,6 @@ emoji: "💡"
 type: "idea"
 topics: ["DX", "中小企業", "システム開発", "外注", "業務効率化"]
 published: false
-published_at: 2026-03-11 09:00
 ---
 
 ## この記事で分かること

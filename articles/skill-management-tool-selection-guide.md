@@ -4,7 +4,6 @@ emoji: "🔍"
 type: "idea"
 topics: ["スキル管理", "HRTech", "人事DX", "スタートアップ", "組織開発"]
 published: false
-published_at: 2026-02-27 09:00
 ---
 
 ## はじめに: 「良さそうだけど、うちには高すぎる」問題
