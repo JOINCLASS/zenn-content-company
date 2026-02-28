@@ -1,0 +1,17 @@
+title: "CLAUDE.md設計パターン -- AIエージェントを思い通りに動かす実践ガイド"
+summary: "Claude Codeの設定ファイルCLAUDE.mdを体系的に解説。プロジェクト規模別のテンプレート、Hooks・Skills・MCP連携、マルチエージェント構成、セキュリティ設計まで、現場で使える設計パターンを網羅。コピペで使えるサンプル付き。"
+topics: ["claudecode", "ai", "開発環境", "プログラミング", "自動化"]
+published: true
+price: 1480
+toc_depth: 1
+chapters:
+  - chapter01
+  - chapter02
+  - chapter03
+  - chapter04
+  - chapter05
+  - chapter06
+  - chapter07
+  - chapter08
+  - chapter09
+  - chapter10
