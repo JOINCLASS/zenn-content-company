@@ -1,0 +1,19 @@
+title: "Claude Codeマルチエージェント開発 -- 設計・実装・運用の実践ガイド"
+summary: "Claude Codeのサブエージェント機能を使い、複数のAIエージェントが協調して動くシステムを設計・実装・運用する方法を解説。Orchestratorパターン、エージェント間通信、承認パイプライン、エラーリカバリ、コスト最適化まで、9部門AIエージェント経営の実運用ノウハウを全12章で体系化。"
+topics: ["claudecode", "ai", "マルチエージェント", "自動化", "エージェント"]
+published: true
+price: 2000
+toc_depth: 1
+chapters:
+  - chapter01
+  - chapter02
+  - chapter03
+  - chapter04
+  - chapter05
+  - chapter06
+  - chapter07
+  - chapter08
+  - chapter09
+  - chapter10
+  - chapter11
+  - chapter12
