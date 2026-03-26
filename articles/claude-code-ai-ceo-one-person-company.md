@@ -86,4 +86,3 @@ CEOがClaude Codeを起動
 📘 **[CLAUDE.md設計パターン — AIエージェントを思い通りに動かす実践ガイド](https://zenn.dev/joinclass/books/claude-md-design-patterns)**
 CLAUDE.mdの書き方に特化した設計パターン集。コピペで使えるテンプレート付き。
 
-Amazon Kindleでも販売中です（¥1,250）。

@@ -118,4 +118,3 @@ CLAUDE.mdを使って会社全体を運営する実践記録。
 📘 **[Claude Codeマルチエージェント開発 — 設計・実装・運用の実践ガイド](https://zenn.dev/joinclass/books/claude-code-multi-agent)**
 複数エージェントを協調させるための設計・実装パターン。
 
-Amazon Kindleでも販売中です（¥1,250）。
