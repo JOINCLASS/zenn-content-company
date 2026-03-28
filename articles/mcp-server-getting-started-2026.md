@@ -3,7 +3,7 @@ title: "MCPサーバーを30分で作る — Claude Code × MCP開発入門【20
 emoji: "🔌"
 type: "tech"
 topics: ["claudecode", "mcp", "typescript", "ai", "プログラミング"]
-published: true
+published: false
 ---
 
 ## MCPとは

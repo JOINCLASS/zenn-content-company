@@ -3,7 +3,7 @@ title: "AIエージェント経営でやってはいけない10のこと — 実
 emoji: "⚠️"
 type: "idea"
 topics: ["claudecode", "ai", "経営", "失敗", "スタートアップ"]
-published: true
+published: false
 ---
 
 ## 失敗しないと分からないことがある
