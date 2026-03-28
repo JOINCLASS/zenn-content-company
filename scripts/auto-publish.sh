@@ -1,7 +1,9 @@
 #!/bin/bash
 # Zenn記事を1日1本ずつ自動公開するスクリプト
-# cron: 0 8 * * * /Users/kyoagun/workspace/zenn-content-company/scripts/auto-publish.sh
+# cron: 0 23 * * * (JST 8:00)
 set -euo pipefail
+
+export PATH="/Users/kyoagun/.nvm/versions/node/v22.17.0/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 REPO_DIR="/Users/kyoagun/workspace/zenn-content-company"
 cd "$REPO_DIR"

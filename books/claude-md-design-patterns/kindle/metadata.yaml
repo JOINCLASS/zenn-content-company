@@ -1,0 +1,13 @@
+---
+title: "CLAUDE.md設計パターン"
+subtitle: "AIエージェントを思い通りに動かす実践ガイド"
+author: "合同会社ジョインクラス"
+lang: ja
+rights: "© 2026 合同会社ジョインクラス All Rights Reserved"
+description: |
+  Claude Codeの設定ファイルCLAUDE.mdを体系的に解説。
+  プロジェクト規模別のテンプレート、Hooks・Skills・MCP連携、
+  マルチエージェント構成、セキュリティ設計まで、
+  現場で使える設計パターンを網羅。コピペで使えるサンプル付き。
+cover-image: cover-kindle.png
+---

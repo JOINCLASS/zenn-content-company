@@ -1,0 +1,13 @@
+---
+title: "Claude Code × MCP サーバー開発入門"
+subtitle: "外部ツール連携で生産性を10倍にする実践ガイド"
+author: "合同会社ジョインクラス"
+lang: ja
+rights: "© 2026 合同会社ジョインクラス All Rights Reserved"
+description: |
+  Claude CodeのMCP（Model Context Protocol）サーバー機能を使いこなすための実践入門書。
+  ハンズオン形式で、ファイルシステム操作、データベース連携、外部API統合、
+  認証・セキュリティ、テスト・デバッグ、本番運用まで、
+  実際に動くMCPサーバーを作りながら学ぶ全12章の体系的ガイド。
+cover-image: cover-kindle.jpg
+---

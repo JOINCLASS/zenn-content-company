@@ -40,17 +40,20 @@ npm install -D typescript @types/node
 このMCPサーバーでは、以下の機能を実装します。
 
 **Tools（書き込み系）:**
+
 - `write-file` -- ファイルの作成・上書き
 - `delete-file` -- ファイルの削除
 - `move-file` -- ファイルの移動・リネーム
 - `create-directory` -- ディレクトリの作成
 
 **Tools（読み取り系）:**
+
 - `read-file` -- ファイルの内容を読み取る（`read-file`は動的なパスを引数で受け取るため、固定URIのResourceよりもToolとして実装するほうが柔軟です）
 - `list-files` -- ディレクトリ内のファイル一覧を取得
 - `search-files` -- ファイル名のパターン検索
 
 **Resources:**
+
 - `directory-tree` -- 指定ディレクトリのツリー構造を公開
 
 まず、全体の骨格から書いていきます。

@@ -1,0 +1,13 @@
+---
+title: "Claude Codeで会社を動かす"
+subtitle: "AIエージェント経営の実践記録"
+author: "合同会社ジョインクラス"
+lang: ja
+rights: "© 2026 合同会社ジョインクラス All Rights Reserved"
+description: |
+  CEO1名+AIエージェント群で6プロダクトと受託開発を運営する著者が、
+  Claude Codeを使ったAIエージェント経営の全ノウハウを公開。
+  CLAUDE.mdによるOrchestrator設計、6部門のエージェント定義、
+  CI/CD自動化、マーケ・経理の自動化まで、実運用の記録をもとに解説。
+cover-image: cover-kindle.jpg
+---

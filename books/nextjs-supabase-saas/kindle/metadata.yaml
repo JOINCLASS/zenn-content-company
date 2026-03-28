@@ -1,0 +1,12 @@
+---
+title: "Next.js + Supabase で作る SaaS開発入門"
+subtitle: "認証・DB・決済・リアルタイムを備えた本番SaaSを構築"
+author: "合同会社ジョインクラス"
+lang: ja
+rights: "© 2026 合同会社ジョインクラス All Rights Reserved"
+description: |
+  Next.js 14とSupabaseを使って、認証・データベース・決済・リアルタイム機能を備えた
+  SaaSアプリを一から構築する実践ガイド。マルチテナント設計、Stripe連携、RLS、
+  Vercelデプロイまで、本番運用レベルのノウハウを全12章で解説。
+cover-image: cover-kindle.jpg
+---

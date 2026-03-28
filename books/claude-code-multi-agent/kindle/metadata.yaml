@@ -1,0 +1,13 @@
+---
+title: "Claude Codeマルチエージェント開発"
+subtitle: "設計・実装・運用の実践ガイド"
+author: "合同会社ジョインクラス"
+lang: ja
+rights: "© 2026 合同会社ジョインクラス All Rights Reserved"
+description: |
+  Claude Codeのサブエージェント機能を使い、複数のAIエージェントが協調して動くシステムを
+  設計・実装・運用する方法を解説。Orchestratorパターン、エージェント間通信、
+  承認パイプライン、エラーリカバリ、コスト最適化まで、
+  9部門AIエージェント経営の実運用ノウハウを全12章で体系化。
+cover-image: cover-kindle.jpg
+---
