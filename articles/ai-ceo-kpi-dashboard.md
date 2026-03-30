@@ -3,7 +3,7 @@ title: "AIで経営KPIを自動追跡する方法 — Claude Codeで作るリア
 emoji: "📊"
 type: "idea"
 topics: ["claudecode", "ai", "経営", "KPI", "ダッシュボード"]
-published: false
+published: true
 ---
 
 ## 数字を見ない経営は、目を閉じて運転するのと同じ
