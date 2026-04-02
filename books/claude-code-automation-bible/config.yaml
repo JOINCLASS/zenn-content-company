@@ -1,7 +1,7 @@
 title: "Claude Code 全自動化バイブル -- Hooks・Skills・MCP・cronで24時間働くAIを作る"
 summary: "CEO1名+AIで9部門を運営する著者が、実際に構築・運用中の全自動化パイプラインを完全公開。Hooks、Skills、MCP、launchdを組み合わせ、記事毎日自動公開、SNS27件/日自動配信、Slack朝ダイジェスト、ダッシュボード常時稼働を実現した実践ノウハウを全12章で体系的に解説。"
 topics: ["claudecode", "自動化", "mcp", "ai", "プログラミング"]
-published: false
+published: true
 price: 1980
 toc_depth: 1
 chapters:
