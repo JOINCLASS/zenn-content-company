@@ -1,0 +1,5 @@
+graph TD
+    A["Enterprise Policy\n最高優先度"] --> B["Organization settings\n.claude/settings.json"]
+    B --> C["Project settings\n.claude/settings.local.json"]
+    C --> D["User settings\n~/.claude/settings.json"]
+    D --> E["Default\nデフォルト設定 -- 最低優先度"]

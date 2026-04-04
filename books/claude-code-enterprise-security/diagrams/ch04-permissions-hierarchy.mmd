@@ -1,0 +1,9 @@
+graph TD
+    A["Enterprise Policy\n最高優先度"] --> B["Organization settings\n.claude/settings.json"]
+    B --> C["User settings\n~/.claude/settings.json"]
+    C --> D["Project settings\n.claude/settings.local.json"]
+    A -.->|"上位が下位を\n上書き"| D
+    style A fill:#e53e3e,color:#fff
+    style B fill:#d69e2e,color:#000
+    style C fill:#38a169,color:#fff
+    style D fill:#3182ce,color:#fff

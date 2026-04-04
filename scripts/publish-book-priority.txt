@@ -1,0 +1,3 @@
+# 書籍の優先公開リスト（日付指定）
+# 形式: YYYY-MM-DD slug
+2026-04-10 claude-code-enterprise-security

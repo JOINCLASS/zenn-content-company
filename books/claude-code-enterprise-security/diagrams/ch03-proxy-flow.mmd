@@ -1,0 +1,7 @@
+graph LR
+    A["👨‍💻 開発者"] --> B["Claude Code"]
+    B --> C["社内プロキシ"]
+    C --> D["Anthropic API"]
+    C -.->|"フィルタリング\nログ記録\n利用制限"| C
+    style C fill:#d69e2e,color:#000
+    style D fill:#1a365d,color:#fff

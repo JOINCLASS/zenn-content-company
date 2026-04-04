@@ -1,0 +1,3 @@
+graph TD
+    A["Layer 1: Enterprise Policy\n全社共通のdenyリスト -- 上書き不可"] --> B["Layer 2: Organization settings\nリポジトリごとのallowリスト -- gitで管理"]
+    B --> C["Layer 3: Hooks\nコマンド実行前の動的チェック -- 第6章で解説"]

@@ -1,0 +1,14 @@
+---
+title: "企業のためのClaude Codeセキュリティガイド"
+subtitle: "安全な導入・運用・ガバナンスの実践"
+author: "合同会社ジョインクラス"
+lang: ja
+rights: "© 2026 合同会社ジョインクラス All Rights Reserved"
+description: |
+  企業がClaude Codeを安全に導入するための実践ガイド。
+  データフロー解説、Permissions設計、Hooksによるセキュリティ強制、
+  シークレット管理、ネットワーク設計、コンプライアンス対応
+  （SOC2/ISO27001/GDPR/個人情報保護法）まで網羅。
+  コピペで使えるテンプレート集付き。
+cover-image: cover-kindle.jpg
+---

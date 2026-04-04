@@ -1,0 +1,12 @@
+graph TD
+    A["🖥️ ターミナル"] --> B["Claude Code CLI"]
+    B --> C["ファイル読み取り\nコマンド実行"]
+    C --> D["コンテキスト\n収集・構築"]
+    D -->|"HTTPS TLS 1.2+"| E["Anthropic API"]
+    E --> F["Claude モデル\n推論処理"]
+    E --> G["会話ログ\n一時保存"]
+    style A fill:#2d3748,color:#fff
+    style B fill:#2d3748,color:#fff
+    style E fill:#1a365d,color:#fff
+    style F fill:#1a365d,color:#fff
+    style G fill:#1a365d,color:#fff

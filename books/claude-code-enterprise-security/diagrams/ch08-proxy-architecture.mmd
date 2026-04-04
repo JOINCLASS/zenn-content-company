@@ -1,0 +1,10 @@
+graph TD
+    A["👨‍💻 開発者のマシン\nAPI_KEY=dummy"] -->|"HTTPS"| B["社内プロキシサーバー"]
+    B --> B1["認証（社員ID）"]
+    B --> B2["コンテンツフィルタ"]
+    B --> B3["ログ記録"]
+    B --> B4["利用量制限"]
+    B --> B5["本物のAPIキー付与"]
+    B -->|"HTTPS"| C["Anthropic API"]
+    style B fill:#d69e2e,color:#000
+    style C fill:#1a365d,color:#fff

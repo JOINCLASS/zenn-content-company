@@ -1,0 +1,17 @@
+title: "企業のためのClaude Codeセキュリティガイド -- 安全な導入・運用・ガバナンスの実践"
+summary: "企業がClaude Codeを安全に導入するための実践ガイド。データフロー解説、Permissions設計、Hooks によるセキュリティ強制、シークレット管理、ネットワーク設計、コンプライアンス（SOC2/ISO27001/GDPR/個人情報保護法）対応まで網羅。コピペで使えるテンプレート集付き。"
+topics: ["claudecode", "security", "enterprise", "ai", "governance"]
+published: false
+price: 1500
+toc_depth: 1
+chapters:
+  - chapter01
+  - chapter02
+  - chapter03
+  - chapter04
+  - chapter05
+  - chapter06
+  - chapter07
+  - chapter08
+  - chapter09
+  - chapter10

@@ -1,0 +1,8 @@
+graph TD
+    A["📁 ソースコード\n設定ファイル\n.env"] --> B["Claude Code CLI"]
+    B --> C{"Permissions\nHooks"}
+    C -->|"ブロック"| D["🚫 ログ記録"]
+    C -->|"許可"| E["コンテキスト送信"]
+    E -->|"HTTPS TLS 1.2+\nAPI Key / OAuth"| F["API Gateway\n認証・レート制限\nフィルタリング"]
+    F --> G["Claude モデル\n推論・セーフティ"]
+    G --> H["データ保持\nポリシー適用"]

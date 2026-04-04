@@ -70,3 +70,9 @@ for TARGET in $ALL_TARGETS; do
 done
 
 echo "$(date): No verified unpublished articles found. Skipping."
+
+# 書籍のスケジュール公開も実行
+BOOK_SCRIPT="$REPO_DIR/scripts/auto-publish-book.sh"
+if [ -f "$BOOK_SCRIPT" ]; then
+  bash "$BOOK_SCRIPT"
+fi
