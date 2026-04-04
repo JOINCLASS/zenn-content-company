@@ -1,0 +1,3 @@
+# 優先公開リスト（上から順に公開。ファイル名のみ記載）
+# 公開済みの記事は自動でスキップされる
+github-copilot-claude-code-full-automation.md
