@@ -37,6 +37,13 @@ while IFS=' ' read -r DATE SLUG; do
     continue
   fi
 
+  # 1日1コンテンツのロックファイル確認
+  LOCK_FILE="/tmp/zenn-publish-$(date +%Y%m%d).lock"
+  if [ -f "$LOCK_FILE" ]; then
+    echo "$(date): Today already published something. Skipping book: $SLUG" >> "$LOG_FILE"
+    continue
+  fi
+
   # 公開
   echo "$(date): Publishing book: $SLUG" >> "$LOG_FILE"
   sed -i '' 's/published: false/published: true/' "$CONFIG"
@@ -45,6 +52,9 @@ while IFS=' ' read -r DATE SLUG; do
   TITLE=$(grep "^title:" "$CONFIG" | sed 's/title: *"*//;s/"*$//')
   git commit -m "publish: $TITLE"
   git push origin main
+
+  # ロックファイル作成（この日は記事を公開しない）
+  touch "$LOCK_FILE"
 
   echo "$(date): Successfully published book: $SLUG ($TITLE)" >> "$LOG_FILE"
 

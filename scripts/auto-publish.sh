@@ -10,7 +10,13 @@ REPO_DIR="/Users/kyoagun/workspace/zenn-content-company"
 VERIFY_SCRIPT="/Users/kyoagun/workspace/one-ceo/.company/scripts/verify-article-authenticity.sh"
 cd "$REPO_DIR"
 
-# 今日他のコンテンツが公開されていないか確認
+# 書籍のスケジュール公開を先に実行（書籍が優先）
+BOOK_SCRIPT="$REPO_DIR/scripts/auto-publish-book.sh"
+if [ -f "$BOOK_SCRIPT" ]; then
+  bash "$BOOK_SCRIPT"
+fi
+
+# 今日他のコンテンツが公開されていないか確認（書籍公開後にチェック）
 LOCK_FILE="/tmp/zenn-publish-$(date +%Y%m%d).lock"
 if [ -f "$LOCK_FILE" ]; then
   echo "$(date): Today already published something (book or article). Skipping."
@@ -70,9 +76,3 @@ for TARGET in $ALL_TARGETS; do
 done
 
 echo "$(date): No verified unpublished articles found. Skipping."
-
-# 書籍のスケジュール公開も実行
-BOOK_SCRIPT="$REPO_DIR/scripts/auto-publish-book.sh"
-if [ -f "$BOOK_SCRIPT" ]; then
-  bash "$BOOK_SCRIPT"
-fi
