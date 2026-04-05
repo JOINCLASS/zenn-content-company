@@ -3,7 +3,7 @@ title: "AIエージェント経営の朝ルーティン — Claude Codeで全部
 emoji: "☀️"
 type: "idea"
 topics: ["claudecode", "ai", "経営", "自動化", "生産性"]
-published: false
+published: true
 ---
 
 ## 朝の5分で経営判断が終わる
