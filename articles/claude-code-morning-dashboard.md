@@ -106,3 +106,4 @@ published: true
 KPI管理と経営ダッシュボードの設計を第10章で解説。
 
 📕 全書籍一覧は **[こちら](https://zenn.dev/joinclass?tab=books)**
+
