@@ -23,6 +23,13 @@ if [ -f "$LOCK_FILE" ]; then
   exit 0
 fi
 
+# Zennレートリミット対策: 昨日も公開していた場合はスキップ（1日〜2日に1コンテンツ制限）
+YESTERDAY_LOCK="/tmp/zenn-publish-$(date -v-1d +%Y%m%d).lock"
+if [ -f "$YESTERDAY_LOCK" ]; then
+  echo "$(date): Yesterday also published. Skipping to avoid Zenn rate limit."
+  exit 0
+fi
+
 # 優先公開リスト（上から順に優先。ファイルが存在しpublished: falseなら最優先で公開）
 PRIORITY_FILE="$REPO_DIR/scripts/publish-priority.txt"
 PRIORITY_LIST=""
