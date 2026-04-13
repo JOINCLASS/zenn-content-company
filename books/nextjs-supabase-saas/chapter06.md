@@ -600,6 +600,9 @@ function TaskCard({ task }: { task: Task }) {
 ```
 
 
+> 本書のドラッグ＆ドロップはHTML5 Drag and Drop APIを使った最小実装である。本番環境ではdnd-kit等のライブラリを使うことで、アクセシビリティ対応やモバイルタッチ操作のサポートが得られるため推奨する。
+
+
 ## Supabase Realtimeの実装
 
 ここからが本章のメインテーマだ。Supabase Realtimeを使って、タスクの変更をリアルタイムに反映する。

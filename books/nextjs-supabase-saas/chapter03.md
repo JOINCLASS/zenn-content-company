@@ -512,14 +512,14 @@ BEGIN
   SET is_completed = TRUE, updated_at = now()
   WHERE id = p_todo_id AND user_id = p_user_id;
 
-  -- 完了ログを記録
-  INSERT INTO public.activity_logs (user_id, action, target_id)
-  VALUES (p_user_id, 'complete_todo', p_todo_id);
-
-  -- 該当Todoが見つからなかった場合はエラー
+  -- 該当Todoが見つからなかった場合はエラー（UPDATEの直後にチェック）
   IF NOT FOUND THEN
     RAISE EXCEPTION 'Todo not found or access denied';
   END IF;
+
+  -- 完了ログを記録
+  INSERT INTO public.activity_logs (user_id, action, target_id)
+  VALUES (p_user_id, 'complete_todo', p_todo_id);
 END;
 $$ LANGUAGE plpgsql SECURITY DEFINER;
 ```

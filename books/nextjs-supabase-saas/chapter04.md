@@ -62,10 +62,13 @@ CREATE POLICY "Users can update own profile"
   USING (auth.uid() = id)
   WITH CHECK (auth.uid() = id);
 
--- 他のユーザーのプロフィール（名前とアバター）は閲覧可能
-CREATE POLICY "Users can view other profiles (limited)"
-  ON public.profiles FOR SELECT
-  USING (TRUE);
+-- 他ユーザーの公開情報はViewで提供（全カラム公開を防ぐ）
+-- USING(TRUE)のSELECTポリシーは全カラムを公開してしまうため、Viewを使う
+CREATE VIEW public.public_profiles AS
+SELECT id, full_name, avatar_url FROM public.profiles;
+
+-- public_profilesへのアクセスを許可
+GRANT SELECT ON public.public_profiles TO authenticated;
 
 -- updated_at自動更新トリガー
 CREATE TRIGGER update_profiles_updated_at

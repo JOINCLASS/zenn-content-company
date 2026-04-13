@@ -57,6 +57,8 @@ export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 })
 ```
 
+> このAPIバージョンは執筆時点の最新版である。Stripeは定期的にAPIバージョンを更新するため、実装時には[公式ドキュメント](https://docs.stripe.com/api/versioning)で最新バージョンを確認されたい。
+
 ```typescript
 // src/lib/stripe/client.ts
 import { loadStripe } from '@stripe/stripe-js'

@@ -271,22 +271,42 @@ export async function getSaaSMetrics() {
 
 ### プロアクティブなチャーン防止
 
+```sql
+-- Postgres関数: 14日以内のアクティビティがない有料テナントを検出
+CREATE OR REPLACE FUNCTION public.get_at_risk_tenants()
+RETURNS TABLE (
+  id UUID,
+  name TEXT,
+  plan TEXT,
+  last_activity TIMESTAMPTZ
+)
+LANGUAGE sql
+SECURITY DEFINER
+STABLE
+AS $$
+  SELECT
+    t.id,
+    t.name,
+    t.plan,
+    MAX(al.created_at) AS last_activity
+  FROM public.tenants t
+  LEFT JOIN public.activity_logs al ON al.tenant_id = t.id
+  WHERE t.plan != 'free'
+  GROUP BY t.id, t.name, t.plan
+  HAVING MAX(al.created_at) IS NULL
+     OR MAX(al.created_at) < now() - INTERVAL '14 days'
+  ORDER BY last_activity ASC NULLS FIRST;
+$$;
+```
+
 ```typescript
 // 解約しそうなテナントを検出
 export async function getAtRiskTenants() {
   const supabase = await createClient()
 
-  // 過去14日間にアクティビティがない有料テナント
+  // RPC経由で14日以内のアクティビティがない有料テナントを取得
   const { data: inactiveTenants } = await supabase
-    .from('tenants')
-    .select(`
-      id,
-      name,
-      plan,
-      activity_logs!inner(created_at)
-    `)
-    .neq('plan', 'free')
-    .lt('activity_logs.created_at', new Date(Date.now() - 14 * 86400000).toISOString())
+    .rpc('get_at_risk_tenants')
 
   return inactiveTenants || []
 }
