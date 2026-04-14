@@ -198,11 +198,50 @@ Claude Codeのサブエージェント機能は、この「組織設計」をMar
 
 あなたも、明日からCLAUDE.mdを1つ書いてみてほしい。最初の1エージェントが動いた瞬間、マルチエージェントの可能性が体感として理解できるはずだ。
 
+
 ---
 
-> **本書の内容を自社に適用したい方へ**
-> 合同会社ジョインクラスでは、AI業務自動化コンサルティングを提供しています。マルチエージェント設計の相談から、CLAUDE.mdの作成支援、運用開始までをサポートします。詳しくは [joinclass.co.jp](https://joinclass.co.jp/#cta) をご覧ください。
+## 著者の他の書籍
 
-> **AI-CEO Frameworkをすぐに試したい方へ**
-> 本書で解説したフレームワークはオープンソースとして公開している。MITライセンスで、5分でセットアップ可能だ。
-> GitHub: [JOINCLASS/ai-ceo-framework](https://github.com/JOINCLASS/ai-ceo-framework)
+以下の書籍も合わせてご覧ください。
+
+| 書籍 | 内容 |
+|------|------|
+| [月5万円で会社が回る](https://zenn.dev/joinclass/books/ai-agent-management-guide) | AIエージェント経営の始め方 |
+| [Claude Codeで会社を動かす](https://zenn.dev/joinclass/books/claude-code-ai-ceo) | AIエージェント経営の実践記録 |
+| [Claude Code 全自動化バイブル](https://zenn.dev/joinclass/books/claude-code-automation-bible) | Hooks・Skills・MCP・cronで24時間働くAIを作る |
+| [企業のためのClaude Codeセキュリティガイド](https://zenn.dev/joinclass/books/claude-code-enterprise-security) | 安全な導入・運用・ガバナンスの実践 |
+| [Claude Code × MCP サーバー開発入門](https://zenn.dev/joinclass/books/claude-code-mcp-development) | 外部ツール連携で生産性を10倍にする |
+| [CLAUDE.md設計パターン](https://zenn.dev/joinclass/books/claude-md-design-patterns) | AIエージェントを思い通りに動かす実践ガイド |
+| [Next.js + Supabase SaaS開発入門](https://zenn.dev/joinclass/books/nextjs-supabase-saas) | 認証・DB・決済・リアルタイムを備えた本番SaaSを構築 |
+| [中小企業AI業務自動化 実践ガイド](https://zenn.dev/joinclass/books/sme-ai-automation-guide) | 3ヶ月で成果を出すROI計算から導入ロードマップまで |
+
+▶ [全書籍一覧はこちら](https://zenn.dev/joinclass?tab=books)
+
+▶ [Amazon Kindle版はこちら](https://amzn.to/4mvzLAo)
+
+---
+
+## AI業務自動化コンサルティング
+
+本書の内容を、あなたの事業に合わせてカスタマイズしたい方へ。
+
+合同会社ジョインクラスでは、「AI業務自動化コンサルティング」を提供しています。
+
+### 無料AI業務診断（30分）
+
+あなたの事業の業務フローをヒアリングし、AIで自動化できる領域と期待される効果をレポートします。
+
+**診断でわかること:**
+- あなたの事業でAI自動化の効果が最も高い業務TOP3
+- 導入に必要なコストと期間の見積もり
+- マルチエージェント設計のカスタマイズ方針
+
+**対象:**
+- 従業員1-30名の中小企業、スタートアップ
+- 技術者が社内にいるが、AI活用が進んでいない企業
+- ひとり社長で業務過多に悩んでいる方
+
+▶ [無料診断のお申し込みはこちら](https://joinclass.co.jp/#cta)
+
+診断はオンラインで実施します。所要時間は30分。事前の準備は不要です。まずはお気軽にご相談ください。

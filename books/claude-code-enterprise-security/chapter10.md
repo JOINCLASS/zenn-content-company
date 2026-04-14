@@ -520,36 +520,50 @@ AIツールの活用は、もはや「導入するかどうか」ではなく「
 **本章の情報はClaude Code 2.x系（v2.1.90）（2026年4月時点）に基づいています。** Claude Codeのメジャーアップデート時に改訂予定です。最新情報は[Anthropic公式ドキュメント](https://docs.anthropic.com/en/docs/claude-code)をご確認ください。
 :::
 
----
-
-## 著者について
-
-許（きょ）は合同会社ジョインクラスのCEO。Claude Codeを使って6つの自社プロダクト、受託開発、コンサルティング、書籍執筆を1人で運営している。
-
-### 関連書籍
-
-本書の内容をさらに深く学びたい方は、以下の書籍もご覧ください。
-
-- **[Claude Codeで会社を動かす](https://zenn.dev/joinclass/books/claude-code-ai-ceo)**: AIエージェント経営の全体像
-- **[CLAUDE.md設計パターン](https://zenn.dev/joinclass/books/claude-md-design-patterns)**: CLAUDE.mdの設計手法を20以上のパターンで解説
-- **[Claude Code x MCPサーバー開発入門](https://zenn.dev/joinclass/books/claude-code-mcp-development)**: MCP連携の開発ガイド
-- **[Claude Codeマルチエージェント開発](https://zenn.dev/joinclass/books/claude-code-multi-agent)**: マルチエージェントのガバナンス
-- **[月5万円で会社が回る](https://zenn.dev/joinclass/books/claude-code-automation-bible)**: AI活用によるコスト最適化
-
-全ての書籍は [Zenn著者ページ](https://zenn.dev/joinclass?tab=books) でご覧いただけます。
-
-### AI業務自動化コンサルティング
-
-「自社でのClaude Code導入を支援してほしい」「セキュリティ設計をレビューしてほしい」という方は、AI業務自動化コンサルティング（初回無料診断）をご利用ください。
-
-お問い合わせ: [合同会社ジョインクラス公式サイト]
 
 ---
 
-## 更新履歴
+## 著者の他の書籍
 
-| バージョン | 日付 | 内容 |
-|-----------|------|------|
-| 1.0 | 2026-04-04 | 初版公開 |
+以下の書籍も合わせてご覧ください。
 
-本書はClaude Codeのメジャーアップデート（2.x系リリース等）に合わせて改訂予定です。改訂時には各章の技術情報を最新バージョンで検証し直します。
+| 書籍 | 内容 |
+|------|------|
+| [月5万円で会社が回る](https://zenn.dev/joinclass/books/ai-agent-management-guide) | AIエージェント経営の始め方 |
+| [Claude Codeで会社を動かす](https://zenn.dev/joinclass/books/claude-code-ai-ceo) | AIエージェント経営の実践記録 |
+| [Claude Code 全自動化バイブル](https://zenn.dev/joinclass/books/claude-code-automation-bible) | Hooks・Skills・MCP・cronで24時間働くAIを作る |
+| [Claude Code × MCP サーバー開発入門](https://zenn.dev/joinclass/books/claude-code-mcp-development) | 外部ツール連携で生産性を10倍にする |
+| [Claude Codeマルチエージェント開発](https://zenn.dev/joinclass/books/claude-code-multi-agent) | 設計・実装・運用の実践ガイド |
+| [CLAUDE.md設計パターン](https://zenn.dev/joinclass/books/claude-md-design-patterns) | AIエージェントを思い通りに動かす実践ガイド |
+| [Next.js + Supabase SaaS開発入門](https://zenn.dev/joinclass/books/nextjs-supabase-saas) | 認証・DB・決済・リアルタイムを備えた本番SaaSを構築 |
+| [中小企業AI業務自動化 実践ガイド](https://zenn.dev/joinclass/books/sme-ai-automation-guide) | 3ヶ月で成果を出すROI計算から導入ロードマップまで |
+
+▶ [全書籍一覧はこちら](https://zenn.dev/joinclass?tab=books)
+
+▶ [Amazon Kindle版はこちら](https://amzn.to/4mvzLAo)
+
+---
+
+## AI業務自動化コンサルティング
+
+本書の内容を、あなたの事業に合わせてカスタマイズしたい方へ。
+
+合同会社ジョインクラスでは、「AI業務自動化コンサルティング」を提供しています。
+
+### 無料AI業務診断（30分）
+
+あなたの事業の業務フローをヒアリングし、AIで自動化できる領域と期待される効果をレポートします。
+
+**診断でわかること:**
+- あなたの事業でAI自動化の効果が最も高い業務TOP3
+- 導入に必要なコストと期間の見積もり
+- セキュリティポリシーに準拠したAI導入方針
+
+**対象:**
+- 従業員1-30名の中小企業、スタートアップ
+- 技術者が社内にいるが、AI活用が進んでいない企業
+- セキュリティを重視したAI導入を検討している企業
+
+▶ [無料診断のお申し込みはこちら](https://joinclass.co.jp/#cta)
+
+診断はオンラインで実施します。所要時間は30分。事前の準備は不要です。まずはお気軽にご相談ください。

@@ -188,36 +188,40 @@ AIエージェントは道具だ。しかし、正しく使えば、ひとり会
 
 本書が、あなたのビジネスを次のステージに進めるきっかけになれば幸いである。
 
+本書を最後までお読みいただき、ありがとうございました。
+AIエージェント経営の実践者が一人でも増えることを願っている。
 
 ## 著者紹介
 
 合同会社ジョインクラス CEO。
 
-個人開発者として複数のプロダクトを開発・運用しながら、AIエージェントを活用した経営手法を実践・研究している。Claude Code、Cursor、GitHub Copilotを日常的に併用し、CEO1名 + AIエージェント群で会社を運営する「AIエージェント経営」のスタイルを2025年から実践中。
-
-Zenn Booksでは本書の他にも技術書を公開中。
-
-### コンサルティングのご案内
-
-「自分の会社でもAIエージェント経営を始めたいが、何から手をつければいいか分からない」という方に向けて、個別のコンサルティングを提供している。
-
-**対象:**
-
-- ひとり社長、フリーランス、小規模チーム（1-5名）
-- ソフトウェア開発、Web制作、コンテンツ事業を営んでいる方
-- AIツールに興味はあるが、実務に導入できていない方
-
-**内容:**
-
-- 現状の業務フロー分析
-- AI-CEO Framework の導入設計
-- CLAUDE.md・エージェント定義のカスタマイズ
-- 導入後の伴走サポート（1-3ヶ月）
-
-**お問い合わせ:**
-詳細はZennのプロフィール、またはX（@joinclass_ceo）のDMからお気軽にご連絡ください。
+個人開発者として複数のプロダクトを開発・運用しながら、AIエージェントを活用した経営手法を実践・研究している。Claude Codeを日常的に活用し、CEO1名 + AIエージェント群で会社を運営する「AIエージェント経営」のスタイルを2025年から実践中。
 
 ---
 
-本書を最後までお読みいただき、ありがとうございました。
-AIエージェント経営の実践者が一人でも増えることを願っている。
+## 著者の他の書籍
+
+以下の書籍も合わせてご覧ください。
+
+| 書籍 | 内容 |
+|------|------|
+| [Claude Codeで会社を動かす](https://zenn.dev/joinclass/books/claude-code-ai-ceo) | AIエージェント経営の実践記録 |
+| [Claude Code 全自動化バイブル](https://zenn.dev/joinclass/books/claude-code-automation-bible) | Hooks・Skills・MCP・cronで24時間働くAIを作る |
+| [企業のためのClaude Codeセキュリティガイド](https://zenn.dev/joinclass/books/claude-code-enterprise-security) | 安全な導入・運用・ガバナンスの実践 |
+| [Claude Code × MCP サーバー開発入門](https://zenn.dev/joinclass/books/claude-code-mcp-development) | 外部ツール連携で生産性を10倍にする |
+| [Claude Codeマルチエージェント開発](https://zenn.dev/joinclass/books/claude-code-multi-agent) | 設計・実装・運用の実践ガイド |
+| [CLAUDE.md設計パターン](https://zenn.dev/joinclass/books/claude-md-design-patterns) | AIエージェントを思い通りに動かす実践ガイド |
+| [Next.js + Supabase SaaS開発入門](https://zenn.dev/joinclass/books/nextjs-supabase-saas) | 認証・DB・決済・リアルタイムを備えた本番SaaSを構築 |
+| [中小企業AI業務自動化 実践ガイド](https://zenn.dev/joinclass/books/sme-ai-automation-guide) | 3ヶ月で成果を出すROI計算から導入ロードマップまで |
+
+▶ [全書籍一覧はこちら](https://zenn.dev/joinclass?tab=books)
+
+▶ [Amazon Kindle版はこちら](https://amzn.to/4mvzLAo)
+
+---
+
+## AI業務自動化コンサルティング
+
+本書の内容を自社に適用したい方へ。合同会社ジョインクラスでは、AI業務自動化コンサルティングを提供しています。
+
+▶ [無料診断（30分）のお申し込み](https://joinclass.co.jp/#cta)
