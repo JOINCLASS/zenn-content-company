@@ -3,7 +3,7 @@ title: "MCPサーバーでデータベースとClaude Codeを直接つなぐ —
 emoji: "🗄️"
 type: "tech"
 topics: ["claudecode", "mcp", "typescript", "sqlite", "プログラミング"]
-published: false
+published: true
 ---
 
 ## はじめに — 筆者がMCPサーバーを作った理由
