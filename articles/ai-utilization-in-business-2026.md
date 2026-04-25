@@ -3,7 +3,7 @@ title: "【2026年版】会社でAIを活用する方法｜部門別の導入事
 emoji: "🏢"
 type: "idea"
 topics: ["AI", "業務効率化", "DX", "経営", "生成AI"]
-published: true
+published: false
 publication_name: "joinclass_blog"
 ---
 
